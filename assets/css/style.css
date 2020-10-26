@@ -1,21 +1,49 @@
 /* CSS Styling */
 
 .navbar-brand {
-
     background-color: aqua;
     font-size: medium;
     padding-top: 15px;
     padding-bottom: 15px;
-
-
-
-
+}
+.mainbox {
+      
+    /* typography */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight:bold;
+    /* visual  */
+    
 }
 
+/* all 10 = top,right,bottom, left */
+.left-box {
+    /* positioning */
+    margin: 10px 10px 10px 10px;
+    /* box model */
+    width: 600px;
+    height: 600px;
+    padding: 10px 10px 10px 10px;
+    /* typography */
+    /* visual  */
+    background-color: burlywood;
+}
+
+.right-box {
+    /* positioning */
+    margin: 10px 10px 10px 10px;
+    /* box model */
+    width: 600px;
+    height: 600px;
+    padding: 10px 10px 10px 10px;
+    /* typography */
+    /* visual  */
+    background-color: rgb(222, 135, 218);
+}
 /* no period or hashtag; any tag (p-tag every paragraph) */
 /* .class = navbar/brand/table */
 /* # = i.d. one specific thing */
 
 
 
-    
+     /*  */
