@@ -10,7 +10,7 @@
       
     /* typography */
     font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-size: 14px;
     font-weight:bold;
     /* visual  */
     
@@ -23,11 +23,25 @@
     /* box model */
     width: 600px;
     height: 600px;
-    padding: 10px 10px 10px 10px;
+    padding: 0px 10px 10px 10px;
     /* typography */
     /* visual  */
-    background-color: burlywood;
+    background-color: rgb(128, 124, 119);
 }
+
+#Summary_Image {
+    /* positioning */
+    float: left;
+/* box model */
+    width: 200px;
+    height: 200px;
+    padding: 10px 10px 10px 10px;
+
+
+
+}
+
+
 
 .right-box {
     /* positioning */
