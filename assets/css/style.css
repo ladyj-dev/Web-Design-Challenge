@@ -6,53 +6,81 @@
     padding-top: 15px;
     padding-bottom: 15px;
 }
-.mainbox {
-      
-    /* typography */
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 14px;
-    font-weight:bold;
-    /* visual  */
-    
+/* child of parent */
+.nav-item > a:hover {
+    /* visual */
+    color: cyan;
+    font-weight: bold;
 }
 
 /* all 10 = top,right,bottom, left */
 .left-box {
     /* positioning */
-    margin: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 0px;
     /* box model */
     width: 600px;
     height: 600px;
-    padding: 0px 10px 10px 10px;
+    padding: 20px 10px 10px 0px;
     /* typography */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight:bold;
     /* visual  */
-    background-color: rgb(128, 124, 119);
+    background-color: rgb(216, 214, 212);
+}
+/* compound class */
+.left-box > p {
+    padding: 0px;
+    /* typography */
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: normal;
+
 }
 
 #Summary_Image {
     /* positioning */
+    margin: 20px;
     float: left;
 /* box model */
     width: 200px;
     height: 200px;
     padding: 10px 10px 10px 10px;
-
-
-
 }
 
 
 
 .right-box {
     /* positioning */
-    margin: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 0px;
     /* box model */
     width: 600px;
     height: 600px;
-    padding: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 0px;
     /* typography */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight:bold;
     /* visual  */
-    background-color: rgb(222, 135, 218);
+    background-color:  rgb(216, 214, 212);
+}
+
+.nav_image_photo {
+    /* positioning */
+    margin: 10px 10px 10px 10px; 
+    /* box model */
+    width: 150px;
+    height: 150px;
+    padding: 10px 10px 10px 10px;
+}
+
+.nav_image_photo:hover {
+    /* visual */
+    opacity: 0.6;
+
+
+
 }
 /* no period or hashtag; any tag (p-tag every paragraph) */
 /* .class = navbar/brand/table */
