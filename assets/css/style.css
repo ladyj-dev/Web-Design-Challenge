@@ -66,6 +66,11 @@
     background-color:  rgb(216, 214, 212);
 }
 
+.right-box > h1 {
+    padding: 20px 10px 10px 20px;
+
+}
+
 .nav_image_photo {
     /* positioning */
     margin: 10px 10px 10px 10px; 
@@ -86,6 +91,36 @@
 /* .class = navbar/brand/table */
 /* # = i.d. one specific thing */
 
+/* ################################################################################################### */
 
+/* styling visualizations */
+.left-box > p {
+    margin:10px 20px 10px 20px;
+    text-align: center;
+}
 
+.left-box > h1 {
+    padding: 10px 10px 10px 20px;
+
+}
      /*  */
+#Viz-image {
+    margin:10px 10px 10px 20px;
+/* box model */
+    width: 550px;
+    height: 420px;
+    padding: 10px 20px 10px 35px;
+        
+}
+
+.comparison-images {
+    margin:10px 10px 10px 10px;
+    /* box model */
+        width: 550px;
+        height: 420px;
+        padding: 10px 10px 10px 10px;  
+
+}
+.comparison-header {
+    text-align: center;
+}

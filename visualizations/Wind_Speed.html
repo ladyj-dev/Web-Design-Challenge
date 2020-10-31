@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <!-- Notes -->
+    <!-- Don't forget to right click select format to clean up -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wind Speed</title>
+    <!-- Copy and paste bootstrap css link -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
     <!-- Create link to style.css file (li/enter/etc)-->
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
+
 <body>
+
+    <!--Start of navbar  -->
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <!-- replace # with link references -->
         <a class="navbar-brand" href="../index.html">Latitude</a>
@@ -44,14 +52,69 @@
                 </li>
             </ul>
         </div>
-    </nav> 
-     <!-- Create script to javascript and jquery bundle -->
+    </nav>
+    <!-- End of navbar ##############################################################################################################                       -->
+
+    <!-- Start of container (gray container) use container class must be little "c"-->
+    <div class="container mainbox">
+        <!-- row puts everything left to right/if you used column it would do top to bottom -->
+        <div class="row">
+
+            <div class="col-md-8">
+
+                <article class="left-box">
+                    <h1>Latitude vs Wind Speed</h1>
+                    <img src="../assets/images/windspeed.png" class="visualization rounded float-left" id="Viz-image">
+                    <p><br>
+                        <br>
+                        There's appears to be higher winds in the far northern extreme latitudes (50 degrees and higher).
+                    </p>
+                </article>
+            </div>
+
+
+            <div class="col-md-4">
+                <div class="row">
+                    <article class="right-box">
+                        <h1>Visualizations</h1>
+                        <!-- Start of viz for navigation (right box)-->
+
+                        <a href="Max_Temperature.html"><img src="../assets/images/max_temp.png"
+                                alt="Latitude vs Max Temperature" class="nav_image_photo"></a>
+                        <a href="Humidity.html"><img src="../assets/images/humidity.png" alt="Latitude vs Humidity"
+                                class="nav_image_photo"></a>
+                        <a href="Cloudiness.html"><img src="../assets/images/cloudiness.png"
+                                alt="Latitude vs Cloudiness" class="nav_image_photo"></a>
+                        <a href="Wind_Speed.html"><img src="../assets/images/windspeed.png" alt="Latitude vs Wind Speed"
+                                class="nav_image_photo"></a>
+
+                    </article>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+
+    <!-- End of viz for navigation -->
+
+
+
+    <!-- End of container -->
+
+
+
+    <!-- Create script to javascript and jquery bundle -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-    crossorigin="anonymous"></script>
-<!--  -->
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+    <!--  -->
 </body>
+
 </html>
